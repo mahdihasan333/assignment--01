@@ -9,7 +9,7 @@
 
 .header-section {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .header-nav {
@@ -47,7 +47,7 @@
 
 .hero-container {
   height: 85%;
-  width: 100vw;
+  width: 100%;
   background-image: url(../assets/Hero-bg.png);
   background-size: cover;
 }
@@ -108,7 +108,6 @@
 
 
 .why-development-content {
-  /* height: 100vh; */
   width: 85%;
   margin: 0 auto;
   border-radius: 16px;
@@ -202,7 +201,7 @@
 
 .inspiration-section {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .inspiration-container {
@@ -223,6 +222,8 @@
 }
 
 .inspiration-container p {
+  margin: 0 auto;
+  width: 85%;
   margin-top: 20px;
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
@@ -241,4 +242,109 @@
 
 .youtube-video iframe {
   border-radius: 16px;
+}
+
+/* my inspiration section styles ends here  */
+
+
+.current-target-section {
+  height: 100vh;
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+
+.current-target-container h1 {
+  margin-top: 80px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.current-target-container>p {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 85%;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.target-card-container {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.current-card-container {
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.current-card {
+  width: 33%;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.card-background-1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.card-background-2 {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.card-background-3 {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+.current-card h2 {
+  margin-top: 10px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.current-card p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.current-card a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: underline;
 }
