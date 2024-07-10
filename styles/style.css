@@ -436,3 +436,93 @@
   text-align: left;
   text-decoration: underline;
 }
+
+/* my next target section styles ends here  */
+
+.support-section {
+  height: 80vh;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.support-container {
+  margin-top: 40px;
+  height: 80vh;
+  background-image: url(../assets/handshake.jpg);
+  background-size: cover;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support-container h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+
+.support-container p {
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.from-container {
+  margin-top: 40px;
+}
+
+
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.form-section .feedback {
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  outline: none;
+}
+
+.form-section .submit-btn {
+  padding: 16px 20px;
+  color: rgb(13, 19, 33);
+  background: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
