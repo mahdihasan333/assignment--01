@@ -248,9 +248,9 @@
 
 
 .current-target-section {
-  height: 100vh;
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 
@@ -291,7 +291,7 @@
 
 .current-card-container {
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
   gap: 25px;
@@ -339,6 +339,94 @@
 }
 
 .current-card a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* my current section styles ends here  */
+
+
+/* my next target section styles starts here  */
+
+.next-target-section {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.next-target-container {
+  margin-top: 80px;
+}
+
+.next-target-container h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.next-target-container p {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 85%;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.target-content-container {
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.next-target-content img {
+  width: fit-content;
+}
+
+.next-target-content h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.next-target-content p {
+  margin-top: 8px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.next-target-content a {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
